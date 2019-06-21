@@ -1,0 +1,24 @@
+#------------------------------------------------------------------------------
+# Makefile for CMPS 101 Programming Assignment 2
+#
+#       make                   makes ModelListTest
+#       make ListClient        makes ListClient
+#------------------------------------------------------------------------------
+
+ModelListTest : ModelListTest.o List.o
+	gcc -o ModelListTest ModelListTest.o List.o
+
+ModelListTest.o : ModelListTest.c List.h
+	gcc -c -std=c99 -Wall ModelListTest.c
+
+ListClient: ListClient.o List.o
+	gcc -o ListClient ListClient.o List.o
+
+ListClient.o : ListClient.c List.h
+	gcc -c -std=c99 -Wall ListClient.c
+
+List.o : List.c List.h
+	gcc -c -std=c99 -Wall List.c
+
+clean :
+	rm -f ModelListTest ListClient ModelListTest.o ListClient.o List.o

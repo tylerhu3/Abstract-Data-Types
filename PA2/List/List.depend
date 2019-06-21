@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1507631574 source:c:\users\tyler\dropbox\cs101(abstract data types)\pa2\list\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"List.h"
+
+1508270921 source:c:\users\tyler\dropbox\cs101(abstract data types)\pa2\list\list.c
+	<stdlib.h>
+	<stdio.h>
+	"List.h"
+
+1508185801 c:\users\tyler\dropbox\cs101(abstract data types)\pa2\list\list.h
+
+1508270924 source:c:\users\tyler\dropbox\cs101(abstract data types)\pa2\list\lex.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"List.h"
+
+1510569455 source:f:\dropbox\cs101(abstract data types)\pa2\list\list.c
+	<stdlib.h>
+	<stdio.h>
+	"List.h"
+
+1508113867 f:\dropbox\cs101(abstract data types)\pa2\list\list.h
+
+1510731862 source:f:\dropbox\cs101(abstract data types)\pa2\list\lex.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"List.h"
+
