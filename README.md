@@ -1,2 +1,2 @@
 # CS101-Abstract-Data-Type-
-These are  assignments from UC Santa Cruz Abstract Data Type course that I have completed and recieved A's. In each folder in this repository is a separate assignment, with a README that states what each files do and a pdf that constitute the assignment requirements.
+UC Santa Cruz Abstract Data Type course, all assignments recieved full marks. In each folder in this repository is a separate assignment, with a README that states what each files do and a pdf that constitute the assignment requirements. This course mainly uses Java and C with building of List and Graph data structures, as well as implementation of proper matrix multiplication, DFS and BFS.
